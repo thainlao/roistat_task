@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+input:focus:valid {
+    border: 1px solid rgb(155, 147, 147);
+}
+
+input::placeholder{
+    color: rgb(109, 120, 109);
+}
