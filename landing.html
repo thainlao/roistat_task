@@ -142,5 +142,14 @@
         <span class="hidden_text">*Акция не распространяется на подключение опций, лимитов, которые были подключены ранее до 1.11.2023 Количество предложений ограничено</span>
     </div>
     <script src="script.js"></script>
+    <script>
+        const storedData = localStorage.getItem('formData');
+        if (storedData) {
+            const formData = JSON.parse(storedData);
+            console.log('data:', formData);
+        } else {
+            console.log('No data');
+        }
+    </script>
 </body>
 </html>
