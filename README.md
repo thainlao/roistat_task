@@ -1,5 +1,5 @@
-https://thainlao.github.io/roistat_task/
-
+[Лендинг](https://thainlao.github.io/roistat_task/landing.html)
+[Форма](http://127.0.0.1:5500/roistat_task/index.html)
 ---
 
 CSS, HTML, Javascript
